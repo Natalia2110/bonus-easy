@@ -50,7 +50,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 0.02em;
+    /* letter-spacing: 0.02em; */
     
     
 
@@ -178,9 +178,7 @@ body {
     padding-top: 75px;
     padding-bottom: 75px;
 }
-.bonus-title-box {
-    
-}
+
 .section-bonus-title {
     min-width: 507px;
     min-height: 232px;
@@ -197,3 +195,129 @@ body {
     font-size: 16px;
     line-height: 1.375; 
 }
+
+/* -----------------bonus-list----------- */
+
+.bonus-box-first,
+.bonus-box-third {
+    display: flex;
+    gap: 116px;
+    padding-top: 124px;
+    padding-bottom: 81px;
+
+}
+
+.bonus-box-second {
+    display: flex;
+    gap: 139px;
+    padding-top: 124px;
+    padding-bottom: 59px;
+}
+
+.bonus-img {
+    border-radius: 12px;
+}
+.bonus-box-text{
+    max-width: 495px;
+}
+.bonus-box-second .bonus-img {
+    width: 518px;
+}
+/* .bonus-block-second .bonus-block-text{
+    max-width: 485px;
+} */
+.bonus-box-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+.title-number-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 74px;
+    height: 74px;
+    border-radius: 100px;
+}
+
+.title-number {
+    
+    font-family: inherit;
+    font-size: 38px;
+    line-height: 1.58; 
+    text-align: center;
+}
+.bonus-box-first .title-number-box{
+    background-color:  #B99FEA;
+}
+.bonus-box-second .title-number-box {
+    background-color:  #EBA789;
+}
+.bonus-box-third .title-number-box {
+    background-color:  #96DBC6;
+}
+.bonus-box-title {
+    font-family: inherit;
+    font-size: 19px;
+    line-height: 0.53;
+    
+}
+.bonus-box-subtitle {
+    font-family: inherit;
+    font-size: 35px;
+    line-height: 45.632px; /* 130.377% */
+    letter-spacing: 1px;
+    
+    margin-bottom: 9px;
+}
+.expand-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 45px;
+    
+
+}
+.expand-box::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: left 0;
+    bottom: 0;
+    width: 95px;
+    height: 2px;
+    background-color: var(--body-text-color);
+    
+}
+.expand-box-span {
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 2.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--body-text-color);
+}
+
+
+.bonus-box-text {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.577; /* 157.714% */
+}
+
+/* -----------------------section-quote--------------- */
+
+.section-quote {
+    padding-top: 116px;
+    padding-bottom: 112px;
+}
+
