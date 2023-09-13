@@ -317,7 +317,19 @@ body {
 /* -----------------------section-quote--------------- */
 
 .section-quote {
+    display: flex;
+    flex-direction: row;
     padding-top: 116px;
     padding-bottom: 112px;
+}
+
+.section-quote-box {
+    
+}
+.section-box-icon {
+
+}
+.section-quote-text{
+    
 }
 
