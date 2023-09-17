@@ -6,6 +6,8 @@
     --text-color-light:  #E4D8CC;
     --body-text-size: 14px;
     --body-background-color: #E7DFD8;
+    --text-color-mission-tite: #C3BAB1;
+    --color-mission-text: #E7DFD8;
 
 
 }
@@ -319,17 +321,138 @@ body {
 .section-quote {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 128px;
     padding-top: 116px;
     padding-bottom: 112px;
 }
 
+
 .section-quote-box {
+    min-width: 489px;
     
+
 }
-.section-box-icon {
+.section-quotes {
+    width: 72px;
+    height: 62px;
+    margin: auto;
+    margin-bottom: 48px;
 
 }
 .section-quote-text{
     
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: center;
+    color: var(--text-color-light);
+    margin-bottom: 61px;
+
+}
+.author-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+
+
+}
+.author-photo{
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+}
+.author-name{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color-light);
+    }
+.forbes-image {
+    width: 140px;
+    height: 37px;
+    margin: auto;
 }
 
+/* --------------- section-questions-------------*/
+.section-questions{
+    display: flex;
+    gap:120px;
+    padding-top: 100px;
+    padding-bottom: 71px;
+    background: #101010;
+}
+.section-questions-title {
+    
+    font-family: inherit;
+    font-size: 36px;
+    line-height: 1.268; /* 126.756% */
+    letter-spacing: 1px;
+    color: var(--text-color-light);
+    margin-bottom: 45px;
+}
+.questions-list{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.questions-item{
+    
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #B99FEA;
+}
+
+.section-questions-icon{
+    fill:  #D8CCBF;;
+}
+
+.bonus-mission {
+    max-width: 1280px;
+    padding-top: 139px;
+    padding-bottom: 112px;
+    background-image: url(../img/backgraund-img.jpeg);
+    ;
+}
+.bonus-mission-title{
+    
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.067; 
+    color: var(--text-color-mission-tite);
+    margin-bottom: 19px;
+}
+.bonus-mission-text{
+    
+    max-width: 666px;
+    margin-bottom: 24px;
+    font-family: inherit;
+    font-size: 48px;
+    line-height: 1.125;
+    color: var(--color-mission-text);
+}
+.bonus-mission-link{
+    
+    font-family: inherit;
+    font-size: 12px;
+    padding-bottom: 14px;
+    position: relative;
+    line-height: 1.67; /* 166.667% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-color-light);
+}
+
+.bonus-mission-link::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: left 0;
+    bottom: 0;
+    width: 271px;
+    height: 1px;
+    background-color: var(--text-color-light);
+}
