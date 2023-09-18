@@ -133,7 +133,7 @@ body {
     color: #C3BAB1;
     font-family: Inter;
     font-size: 18px;
-    line-height: 1.56px
+    line-height: 1.56;
 }
 .hero-btn-list {
     display: flex;
