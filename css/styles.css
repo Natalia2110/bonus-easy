@@ -93,7 +93,7 @@ body {
 }
 .contats-list {
     gap: 38px;
-   
+
 }
 
 .nav-list-link,
@@ -109,7 +109,6 @@ body {
     max-width: 1280px;
     max-height: 784px;
     background-image: var(--bg-gradient), url(../img/heroImg.jpeg);
-    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
