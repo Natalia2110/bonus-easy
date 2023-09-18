@@ -457,10 +457,23 @@ body {
 
 /* ------------------------- last-section-------------*/
 .last-section{
+    position: relative;
     padding-top: 78px;
     padding-bottom: 121px;
     background-color: var(--body-text-color);
 }
+.last-section::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: right 0;
+    bottom: 0;
+    width: 1147px;
+    height: 1px;
+    background-color:rgba(228, 216, 204, 0.16);
+}
+
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -561,5 +574,40 @@ body {
     font-family: inherit;
     font-size: 14px;
     line-height: 2;
+    color: var(--text-color-light);
+}
+
+/* ------------------- footer---------------*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap:286px;
+    padding: 28px 71px;
+    background-color: #101010;
+}
+
+
+.footer-list{
+    display: flex;
+    gap: 298px;
+}
+
+.footer-soc-icon{
+    fill:var(--body-background-color)
+}
+
+.footer-soc-icon:focus,
+.footer-soc-icon:hover{
+    fill: var(--btn-color);
+
+}
+.footer-text{
+
+    text-align: right;
+    font-family: inherit;
+    font-size: 11px;
+    line-height: 1;
     color: var(--text-color-light);
 }
